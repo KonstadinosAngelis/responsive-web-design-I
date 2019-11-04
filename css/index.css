@@ -403,16 +403,27 @@ h4{
 
     .main-content .top-content {
         display: block;
+        padding: 0;
     }
 
     .main-content .bottom-content {
         display: block;
+        padding: 0;
     }
 
     .main-content .top-content .text-content{
         width: 100%;
         padding-bottom: 10%;
     }  
+
+    /* .main-content .top-content .text-content: :last-child{
+        padding-bottom: 0%;
+    } */
+
+    .main-content .middle-img{
+        width: 100%;    
+        margin-top: 0px;
+    }
 
     .main-content .bottom-content .text-content{
         width: 100%;
@@ -422,6 +433,8 @@ h4{
     .contact{
         margin: 0 2%;
         margin-top: 0%;
+        margin-left: 15px;
+        padding-left: 0px;
     }
 
     footer p{
