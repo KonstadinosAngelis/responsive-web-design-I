@@ -200,7 +200,7 @@ footer {
 
 .body, footer{
   margin: 0 auto;
-  width: 875px;
+  width: 100%;
 }
 
 .serviceDescrip h1{
@@ -330,7 +330,7 @@ h4{
     .cta{
         display: flex;
         justify-content: center;
-        width: 800px;
+        width: 100%;
     }
 
     .cta .cta-text {
@@ -365,9 +365,13 @@ h4{
 /* Mobile media */
 @media (max-width: 500px){
 
+    body{
+      width: 100%;
+    }
+
     .container{
-        width: 500px;
-        /* border: 1px solid black; */
+        width: 100%;
+        border: 1px solid b;
     }
 
     header{
@@ -381,8 +385,8 @@ h4{
     header nav{
         display: flex;
         flex-direction: column;
-        width: 500px;
-
+        width: 100%;
+        align-content: center;
     }
 
     header nav a{
@@ -398,7 +402,7 @@ h4{
     }
 
     .cta{
-        width: 500px;
+        width: 100%;
     }
 
     .main-content .top-content {
@@ -434,7 +438,7 @@ h4{
     }
 
     footer p{
-        width: 500px;
+        width: 100%;
         text-align: center;
     }
 }
